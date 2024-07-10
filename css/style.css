@@ -1,0 +1,87 @@
+
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23pc;
+    padding: 1pc;
+    text-align: center;
+}
+
+nav {
+    width: 73pc;
+    padding: 1pc;
+}
+
+ul {
+    width: 50pc;
+    margin-left: auto;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    background-color: grey;
+}
+
+footer {
+    
+    background-color: #373738;
+    color: white;
+    height: 2pc; 
+    padding-top: 0.5pc;
+    padding-bottom: 1pc;
+}
+
+footer ul {
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flexContainer div {
+    width: 33%;
+    margin: 0% 2%;
+    padding: 1% 1%
+}
+
+.workGrid {
+
+}
+
+.item1 {
+    grid-area: area1;  
+  }
+
+  .item2 {
+    grid-area: area2;  
+  }
+
+  .item3 {
+    grid-area: area3;  
+  }
+
+  .item4 {
+    grid-area: area4;  
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'area1 area2 area3 area4';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+
